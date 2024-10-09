@@ -50,7 +50,7 @@ const GPSComponent: React.FC = () => {
   const sendLocationToServer = useCallback(async (location: Location) => {
     if (location.latitude !== null && location.longitude !== null) {
       try {
-        await fetch('http://13.51.175.43:5001/api/save-location', {
+        await fetch('http://95.111.225.198:5001/api/save-location', {
           method: 'POST',
           headers: {
             'Content-Type': 'application/json'
