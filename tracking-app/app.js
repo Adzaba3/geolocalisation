@@ -14,7 +14,8 @@ connectDB();
 
 const app = express();
 app.use(cors({
-  origin: 'http://13.51.175.43:5000',  // Remplace par l'origine de ton application React (URL où l'app est hébergée)
+  // origin: 'http://13.51.175.43:5000',  // Remplace par l'origine de ton application React (URL où l'app est hébergée)
+  origin: 'http://95.111.225.198:5000',  // Remplace par l'origine de ton application React (URL où l'app est hébergée)
   methods: ['GET', 'POST'], // Méthodes HTTP autorisées
   credentials: true, // Si tu utilises des cookies ou des sessions
 }));
