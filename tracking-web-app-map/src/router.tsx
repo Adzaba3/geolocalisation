@@ -2,10 +2,7 @@ import React from 'react'
 import { createHashRouter, RouteObject } from 'react-router-dom'
 import { getDefaultLayout } from './components/layout'
 
-import InventoryPage from './pages/inventory'
-import GPSComponent from './pages/geolocalisation'
 import Tracking from './pages/tracking'
-
 
 export const routerObjects: RouteObject[] = [
   {
